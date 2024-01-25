@@ -1,4 +1,7 @@
 import bot
+import json
+
 
 while True:
-    print(bot.get_nlp_data(input()))
+    print(json.loads(bot.get_nlp_data(input())))
+    
